@@ -32,7 +32,7 @@ jobs:
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
         env:
-          students: ${{secrets.students}}
+          students: ${{212206423}}
           API_KEY: ${{secrets.API_KEY}}
           check: ${{secrets.check}}
         run: |
